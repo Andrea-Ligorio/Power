@@ -1,28 +1,54 @@
+div, header, footer {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.body{
+    background-color: grey;
+    margin: 0px;
+}
+
 .mainWindow{
     margin: 0 auto;
-    width: 75vh;
+    width: 100%;
+    max-width: 700px;
     min-height: 100vh;
     background-color: black;
 }
 
 .header{
     height: 30vh;
+    width: 100%;
     background-color: rgb(43, 43, 70);
+
 }
 
 .profilePicture{
     background-color: aliceblue;
-    height: 100px;
-    width: 100px;
-    border-color: rgb(43, 43, 70);
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     overflow: hidden;
 }
 
 .profilePictureBox{
-    display: flex;
     justify-content: right;
     align-items: center;
     height: 100%;
-    width: 23%;
+    width: 30%;
+}
+
+.user{
+    position: relative;
+    height: 50%;
+    width: 65%;
+    align-items: center;
+
+    font-style: italic;
+    color: wheat;
+}
+
+.stats{
+    font-size: large;
 }
