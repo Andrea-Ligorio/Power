@@ -1,0 +1,28 @@
+.mainWindow{
+    margin: 0 auto;
+    width: 75vh;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.header{
+    height: 30vh;
+    background-color: rgb(43, 43, 70);
+}
+
+.profilePicture{
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    border-color: rgb(43, 43, 70);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilePictureBox{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width: 23%;
+}
