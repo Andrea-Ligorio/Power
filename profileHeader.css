@@ -1,19 +1,30 @@
+@font-face {
+    font-family: 'inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+}
+
 div, header, footer {
     display: flex;
     overflow: hidden;
 
 }
 
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
 .body{
     background-color: grey;
     margin: 0px;
+    font-family: 'inter', sans-serif;
 }
 
 .mainWindow{
     margin: 0 auto;
-    width: 100%;
-    max-width: 700px;
     min-height: 100vh;
+    max-width: 700px;
     background-color: black;
 }
 
@@ -21,34 +32,38 @@ div, header, footer {
     height: 30vh;
     width: 100%;
     background-color: rgb(43, 43, 70);
-
 }
 
 .profilePicture{
     background-color: aliceblue;
-    height: 150px;
-    width: 150px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     overflow: hidden;
 }
 
 .profilePictureBox{
-    justify-content: right;
     align-items: center;
     height: 100%;
-    width: 30%;
+    width: 25%;
 }
 
 .user{
-    position: relative;
-    height: 50%;
-    width: 65%;
-    align-items: center;
-
-    font-style: italic;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
     color: wheat;
+    justify-content: end;
 }
 
 .stats{
-    font-size: large;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+}
+
+.info{
+    height: 100%;
+    width: 65%;
+    flex-direction: column;
 }
