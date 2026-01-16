@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Tracker</title>
+    <link rel="stylesheet" href="profileHeader.css">
+</head>
+<body class="body">
+    
+    <div class="mainWindow">
+        <div class="topbar">
+            <div class="endbar">
+                <div class="imagebar">
+                    <img src="immagini/plus.png" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="namebar">
+                <h1>Andrea_lig</h1>
+            </div>
+            <div class="endbar"> 
+                <div class="imagebar">
+                    <img src="immagini/menu.png" height="100%" width="100%">
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div style="width: 2.5%;"></div>
+            <div class="profilePictureBox">
+                <div class="profilePicture">
+                    <img src="immagini/pfp.png" height="100%" width="100%">
+                </div>
+            </div>
+            <div style="width: 2.5%;"></div>
+            <div class="info">
+                <div class="user">
+                    <div class="name">
+                        <h2>Andrea_lig</h2>
+                        <h5 style="font-weight: 300;">Andrea Ligorio</h5>
+                        <h6 style="font-weight: 300;">-59kg subJunior</h6>
+                    </div>
+                    <div class="rank">
+                        <h3>
+                            <select class="stat" name="stat">
+                                <option value="TOTAL">TOTAL</option>
+                                <option value="IPF"> IPF</option>
+                                <option value="GL">GL</option>
+                            </select>
+                        </h3>
+                        <h4>500</h4>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="lift" style="width: 30%;">
+                        <h3>SQUAT</h3>
+                        <h4>160</h4>
+                    </div>
+                    <div class="lift" style="width: 30%;">
+                        <h3>BENCH</h3>
+                        <h4>115</h4>
+                    </div>
+                    <div class="lift" style="width: 40%;">
+                        <h3>DEADLIFT</h3>
+                        <h4>180</h4>
+                    </div>
+                </div>
+            </div>   
+        </header>
+        <div class="chart">
+            <canvas id="myChart" height="100%" width="100%">
+
+            </canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart.js"></script>
+</body>
+</html>

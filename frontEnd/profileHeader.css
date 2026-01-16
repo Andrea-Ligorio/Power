@@ -1,0 +1,138 @@
+div, header, footer {
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.body{
+    background-color: grey;
+    margin: 0px;
+    font-family: 'inter', sans-serif;
+}
+
+.mainWindow{
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 1000vh;
+    max-width: 600px;
+    background-color: black;
+}
+
+.topbar{
+    position: fixed;
+    width: 100%;
+    max-width: 600px;
+    height: 7.5vh;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+}
+
+.endbar{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagebar{
+    height: 90%;
+    aspect-ratio: 1/1;
+}
+
+.namebar{
+    height: 100%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 20vh;
+    width: 100%;
+    margin-top: 7.5vh;
+    border-bottom: 1px solid white;
+}
+
+.profilePicture{
+    background-color: aliceblue;
+    max-height: 75%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilePictureBox{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.user{
+    flex-direction: row;
+    height: 55%;
+    width: 100%;
+}
+
+.name{
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.rank{
+    height: 100%;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select.stat{
+    appearance: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+.stats{
+    flex-direction: row;
+    height: 45%;
+    width: 100%;
+}
+
+.info{
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+}
+
+.lift{
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.chart{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
