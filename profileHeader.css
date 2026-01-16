@@ -130,3 +130,9 @@ select.stat{
     justify-content: center;
     align-items: center;
 }
+
+div.chart{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+}

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power Tracker</title>
     <link rel="stylesheet" href="profileHeader.css">
 </head>
 <body class="body">
+    
     <div class="mainWindow">
         <div class="topbar">
             <div class="endbar">
@@ -34,8 +36,8 @@
                 <div class="user">
                     <div class="name">
                         <h2>Andrea_lig</h2>
-                        <h5 style="font-weight: 100;">Andrea Ligorio</h5>
-                        <h6 style="font-weight: 100;">-59kg subJunior</h6>
+                        <h5 style="font-weight: 300;">Andrea Ligorio</h5>
+                        <h6 style="font-weight: 300;">-59kg subJunior</h6>
                     </div>
                     <div class="rank">
                         <h3>
@@ -64,7 +66,13 @@
                 </div>
             </div>   
         </header>
-    </div>
+        <div class="chart">
+            <canvas id="myChart" height="100%" width="100%">
 
+            </canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart.js"></script>
 </body>
 </html>
