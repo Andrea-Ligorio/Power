@@ -3,7 +3,6 @@ div, header, footer {
     overflow: hidden;
     background-color: black;
     color: white;
-
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -14,8 +13,8 @@ h1,h2,h3,h4,h5,h6{
 
 .body{
     background-color: grey;
-    margin: 0px;
     font-family: 'inter', sans-serif;
+    margin: 0px;
 }
 
 .mainWindow{
