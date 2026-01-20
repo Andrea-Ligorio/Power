@@ -12,6 +12,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .body{
+    display: flex;
+    justify-content: center;
     background-color: grey;
     font-family: 'inter', sans-serif;
     margin: 0px;
@@ -19,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 
 .mainWindow{
     flex-direction: column;
-    margin: 0 auto;
+    width: 100%;
     min-height: 1000vh;
     max-width: 600px;
     background-color: black;
@@ -30,6 +32,8 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     max-width: 600px;
     height: 7.5vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     flex-direction: row;
     border-bottom: 1px solid white;
 }
@@ -128,10 +132,4 @@ select.stat{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-div.chart{
-    height: 20vh;
-    width: 100%;
-    border-bottom: 1px solid white;
 }

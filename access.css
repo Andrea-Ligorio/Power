@@ -1,0 +1,85 @@
+div{
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    font-family: 'inter', sans-serif;
+    margin: 0px;
+}
+
+#mainWindow{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-width: 600px;
+    background-color: black;
+}
+
+#logo{
+    width: 100%;
+    justify-content: center;
+    height: 35%;
+}
+
+#login{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 65%;
+}
+
+#signin{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 65%;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+#password, #user_name{
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    border-color: white;
+    border-width: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    height: 22%;
+    width: 95%;
+}
+
+.submit{
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    border-color: white;
+    border-width: 2px;
+    padding-left: 5px;
+    border-radius: 25px;
+    height: 22%;
+    width: 95%;
+}
+
+#registrati{
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
